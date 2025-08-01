@@ -1,0 +1,46 @@
+:root {
+  --medieval-color: #6e4a4a; /* Dark medieval brown */
+  --medieval-color-darker: #4a2c2c; /* Darker medieval brown */
+  --medieval-color-light: #d4af37; /* Medieval gold */
+  --medieval-color-rgb: 110, 74, 74;
+  --medieval-color-light-rgb: 212, 175, 55;
+  --medieval-text-color: #f0e5d8; /* Light parchment color */
+}
+
+.accordion {
+  --bs-accordion-btn-focus-border-color: var(--medieval-color-light);
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem var(--medieval-color-light);
+  --bs-accordion-active-bg: var(--medieval-color-light);
+  --bs-accordion-active-color: var(--medieval-color-darker);
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--medieval-color);
+  --bs-btn-border-color: var(--medieval-color);
+  --bs-btn-hover-bg: var(--medieval-color-darker);
+  --bs-btn-hover-border-color: var(--medieval-color-darker);
+  --bs-btn-active-bg: var(--medieval-color-light);
+  --bs-btn-active-border-color: var(--medieval-color-light);
+  --bs-btn-disabled-bg: var(--medieval-color);
+  --bs-btn-disabled-border-color: var(--medieval-color);
+}
+
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--medieval-color-rgb), var(--bs-bg-opacity))!important;
+}
+
+.form-check-input:checked {
+  background-color: var(--medieval-color);
+  border-color: var(--medieval-color);
+}
+
+.form-control:focus,
+.form-check-input:focus {
+  border-color: rgba(var(--medieval-color-light-rgb), 0.8);
+  box-shadow: 0 0 0 4px rgba(var(--medieval-color-light-rgb), 0.6);
+}
+
+footer {
+  color: var(--medieval-text-color);
+}

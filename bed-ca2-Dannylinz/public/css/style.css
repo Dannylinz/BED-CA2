@@ -1,0 +1,180 @@
+body {
+    font-family: 'Garamond', 'Times New Roman', serif; /* Medieval-style serif font */
+    background-color: #f5f0e1; /* Parchment-like background color */
+    color: #2c2c2c; /* Dark text color for readability */
+}
+
+main {
+    min-height: calc(100vh - 56px - 56px);
+}
+
+/* Additional styles to enhance the medieval theme */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Garamond', 'Times New Roman', serif; /* Ensure headings use the medieval-style font */
+    color: #e6b915; /* Darker medieval gold for headings */
+    border: 2px solid #4a2c2c; /* Dark medieval brown border */
+    padding: 10px; /* Optional: Adds padding inside the border */
+    border-radius: 5px; /* Optional: Rounds the corners of the border */
+    
+}
+
+h1, h2 {
+    text-shadow: 
+        1px 1px 0 #4a2c2c, /* Right bottom shadow */
+        -1px -1px 0 #4a2c2c, /* Left top shadow */
+        1px -1px 0 #4a2c2c, /* Right top shadow */
+        -1px 1px 0 #4a2c2c; /* Left bottom shadow */
+        padding: 10px; /* Optional: Adds padding inside the border */
+        background-color: rgba(255, 255, 255, 0.5); /* Optional: Adds a semi-transparent background for better readability */
+}
+
+a {
+    color: #d4af37; /* Medieval gold for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #b8860b; /* Darker gold for hover state */
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: #6e4a4a; /* Dark medieval brown */
+}
+
+.card {
+    background-color: #f0e5d8; /* Light parchment color */
+    border: 1px solid #4a2c2c; /* Dark border */
+}
+
+.card-title {
+    color: #4a2c2c; /* Darker medieval brown */
+}
+
+.card-body {
+    color: #2c2c2c; /* Dark text color */
+}
+
+.btn {
+    font-family: 'Garamond', 'Times New Roman', serif; /* Ensure buttons use the medieval-style font */
+}
+
+footer {
+    background-color: #4a2c2c; /* Darker medieval brown */
+    color: #f0e5d8; /* Light parchment color */
+    padding: 10px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.form-group label {
+    color: #e6b915; /* Darker medieval brown for label text */
+    font-weight: bold; /* Optional: Makes the label text bold */
+}
+.auora-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../images/dark-ages.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.quest-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../images/quest.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.chat-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../images/chat.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.review-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../images/review.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.item-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../images/item.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.profile-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../images/profile.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.task-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../images/task.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.progress-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../images/yourprogress.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.register-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../images/register.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.login-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../images/login.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.form-label {
+    color: #e6b915; /* Change this to your desired color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adjust the shadow to your preference */
+}
